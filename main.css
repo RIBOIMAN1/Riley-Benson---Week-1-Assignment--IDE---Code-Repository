@@ -5,7 +5,7 @@ body, h1, h2, ul, li, a {
 }
 
 body {
-    background: radial-gradient(circle, rgb(0,0,0), rgb(0,0,40)); /* Gradient dark blue background */
+    background: radial-gradient(circle, rgb(0,0,0), rgb(0,0,80)); /* Gradient dark blue background */
 }
 
 h1 {
@@ -76,7 +76,7 @@ a:hover {
 } /* Border that is a dashed line and is a green-yellow color */
 
 .BorderedTextRounded {
-    border: 10px solid red;
+    border: 10px solid rgb(255, 165, 0);
     border-radius: 50%;
 } /* Border that is rounded and is a red color */
 
