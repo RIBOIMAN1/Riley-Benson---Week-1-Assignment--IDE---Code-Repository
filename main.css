@@ -183,8 +183,12 @@ body, html {
     list-style-type: disc;
     color: plum;
     font-size: 1.15em;
-    margin-bottom: 1em;
 } /* Applied disc-style bullets, the plum text color, and font size and spacing adjustments to unordered lists */
+
+.OpenBullets {
+    list-style-type: circle;
+    color: plum;
+}
 
 .BrightnessText80 {
     filter: brightness(0.8);
