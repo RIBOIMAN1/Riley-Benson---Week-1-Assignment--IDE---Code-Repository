@@ -18,13 +18,7 @@ h2 {
     color: plum;
     font-size: 1.5em;
     margin-bottom: 1em;
-} /* Plum color and font size and spacing adjustments for <h2> element */
-
-h3 {
-    color: salmon;
-    font-size: 1.15em;
-    margin-bottom: 1em;
-} /* Salmon color and font size and spacing adjustments for <h3> element */
+} /* Plum color and font size and spacing adjustments for <h2> element */ /* Salmon color and font size and spacing adjustments for <h3> element */
 
 ul {
     list-style-type: none;
@@ -53,46 +47,17 @@ a:hover {
 
 .center-text {
     text-align: center;
-} /* Centers-aligns text */
-
-.center-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-} /* Center-aligns images */
+} /* Centers-aligns text */ /* Center-aligns images */
 
 .img30 {
     height: auto;
     width: 30%;
-} /* Makes images 30% of the width of the browser window or element*/
-
-.img100 {
-    height: auto;
-    width: 100%
-} /* Makes images 100% of the width of the browser window or element*/
-
-.BorderedTextDashed {
-    border: 10px dashed greenyellow;
-} /* Border that is a dashed line and is a green-yellow color */
+} /* Makes images 30% of the width of the browser window or element*/ /* Makes images 100% of the width of the browser window or element*/ /* Border that is a dashed line and is a green-yellow color */
 
 .BorderedTextRounded {
     border: 10px solid rgb(255, 165, 0);
     border-radius: 50%;
-} /* Border that is rounded and is a red color */
-
-.GreenBorderedTextRounded {
-    border: 5px solid green;
-    border-radius: 50%;
-} /* Border that is rounded and is a green color */
-
-.TableDesign {
-    border: 5px ridge red;
-    color: greenyellow;
-    width: 100%;
-    text-align: center;      
-    font-size: 1em;
-    margin-bottom: 1em;
-} /* Border for tables that is ridged and is a red color with green-yellow text */
+} /* Border that is rounded and is a red color */ /* Border that is rounded and is a green color */ /* Border for tables that is ridged and is a red color with green-yellow text */
 
 .bold {
     font-weight: bold;
@@ -113,29 +78,7 @@ body, html {
     padding: 0;
     height: 100%;
     overflow: auto;
-} /* Makes scrollbars appear if the content overflows the viewport */
-
-.video-background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    overflow: auto;
-} /* Makes videos fullscreen, behind the main text, and enables scrollbars */
-
-.video-background video {
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    filter: brightness(0.25);
-} /* Centers video backgrounds, applies minimum width and height to be fullscreen, and applies 25% background brightness for better readability */
+} /* Makes scrollbars appear if the content overflows the viewport */ /* Makes videos fullscreen, behind the main text, and enables scrollbars */ /* Centers video backgrounds, applies minimum width and height to be fullscreen, and applies 25% background brightness for better readability */
 
 .h2Underline {
     text-decoration: underline;
@@ -146,38 +89,7 @@ body, html {
     justify-content: space-between;
     align-items: center;
     padding-bottom: 20px;
-} /* Applies horizontal gaps across the page and creates small gaps on the bottom of images */
-
-.MiniImageBackground {
-    width: auto;
-    height: auto;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    filter: brightness(0.5);
-    position: fixed;
-    z-index: -1;
-    overflow: auto;
-} /* Applies an unaltered sized image with 50% brightness for better readability, and is designed to let the standard color CSS background form around it */
-
-.iframeSize {
-    width: 30%;
-    max-width: 640px;
-    height: 360px;
-    border: 0px;
-} /* Adjusts the width and height of embed YouTube video windows */
-
-.SmallBottomPadding {
-    padding-bottom: 5px;
-} /* Applies a very small gap on the bottom of elements */
-
-.SmallTopPadding {
-    padding-top: 10px;
-} /* Applies a small gap on the top of elements */
-
-.BottomPadding {
-    padding-bottom: 20px;
-} /* Applies a medium sized gap to the bottom of elements */
+} /* Applies horizontal gaps across the page and creates small gaps on the bottom of images */ /* Applies an unaltered sized image with 50% brightness for better readability, and is designed to let the standard color CSS background form around it */ /* Adjusts the width and height of embed YouTube video windows */ /* Applies a very small gap on the bottom of elements */ /* Applies a small gap on the top of elements */ /* Applies a medium sized gap to the bottom of elements */
 
 .BulletUnorderedList {
     list-style-type: disc;
@@ -188,12 +100,4 @@ body, html {
 .OpenBullets {
     list-style-type: circle;
     color: plum;
-}
-
-.BrightnessText80 {
-    filter: brightness(0.8);
-} /* Applies 80% brightness to text */
-
-.ThinBorder {
-    border: 1px solid;color: plum;
-} /* Applies a very thin solid border with the plum color to images */
+} /* Applies 80% brightness to text */ /* Applies a very thin solid border with the plum color to images */
